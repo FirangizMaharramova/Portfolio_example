@@ -1,0 +1,48 @@
+.projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.projects-box {
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.box {
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgb(208, 206, 206);
+  cursor: pointer;
+    
+}
+
+.box img {
+  width: 400px;
+  border-radius: 15px;
+}
+.box-text {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+
+.box-text p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.box:hover{
+    box-shadow: 0 0 5px rgb(164, 162, 162);
+}
